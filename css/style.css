@@ -34,7 +34,7 @@ body {
 }
 
 #header-logo {
-  text-shadow: 5px 5px 2px black, 1 1 25px white, 0 0 5px gray;
+  text-shadow: 1px 1px 2px gray, 0 0 25px #66FFFF, 0 0 5px white;
   font-size: 2.5rem;
   width: 40%;
   margin: 0 auto;
@@ -51,13 +51,14 @@ body {
 }
   .nav-container span {
     width: 20rem;
-    background-color: #3F3F3F;
+    background-color: #33BBFF;
     letter-spacing: .1em;
     cursor: pointer;
     align-items: top;
     justify-content: top;
     text-align: center;
     margin: 0 5% auto;
+    padding: 5px;
     border: 2px solid black;
     border-radius: 10px;
     display: inline;
@@ -127,7 +128,7 @@ body {
     top: 10%;
     height: 30%;
     width: 50%;
-    z-index; 5
+    z-index: 5;
   }
 
   .check-answer {
