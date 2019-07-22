@@ -1,4 +1,7 @@
 var main = () => {
+  $('#modal').modal('show')
+  $('.quiz-container').css('hidden', 'true')
+
   //$('.answer-list').children().hover(event => {
   //  $(event.currentTarget).css('background', 'linear-gradient(to top right, #66ffff 0%, #FFFFFF 100%)')
   //}, event => {$(event.currentTarget).css('background', '')});
@@ -13,3 +16,11 @@ var main = () => {
 }
 
 $(document).ready(main)
+
+const questionsList = {
+  question1: {
+    question: "How many ACAT Categories are there?",
+    answers: ["1", "2", "3", "4"],
+    answer: "4"
+  }
+}

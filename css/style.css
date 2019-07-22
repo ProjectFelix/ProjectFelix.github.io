@@ -65,7 +65,7 @@ body {
   }
 
 .quiz-container {
-  height: 58%;
+  max-height: 58%;
   width: 80%;
   margin: 30px auto;
   text-align: center;
@@ -120,6 +120,24 @@ body {
   .answer-list li:hover {
     background: linear-gradient(to top right, #66ffff 0%, #BBBBBB 100%);
     transition: .2s;
+  }
+
+  #modal {
+    position: fixed;
+    top: 10%;
+    height: 30%;
+    width: 50%;
+    z-index; 5
+  }
+
+  .check-answer {
+    color: white;
+    background: linear-gradient(to top right, #66ffff 0%, #0000cc 100%);
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 10px 10px 5px #aaaaaa;
   }
 
   footer {
